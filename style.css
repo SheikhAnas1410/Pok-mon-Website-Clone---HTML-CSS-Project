@@ -1,0 +1,520 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+.nav1 {
+    margin-left: 30px;
+    cursor: pointer;
+    background-color: whitesmoke;
+    display: flex;
+
+
+}
+
+.img1 {
+    background-color: white;
+
+}
+
+
+.img1:hover {
+    transform: translateY(-3px);
+}
+
+.img2:hover {
+    transform: translateY(-3px);
+}
+
+.img3:hover {
+    transform: translateY(-3px);
+}
+
+.img4:hover {
+    transform: translateY(-3px);
+}
+
+.img5:hover {
+    transform: translateY(-3px);
+}
+
+.img6:hover {
+    transform: translateY(-3px);
+}
+
+.nav2 {
+    display: flex;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: white;
+
+
+}
+
+
+/* 
+ .row1 {
+    margin-left: 60px;
+}
+
+.nav2img2 {
+    margin-left: 60px;
+}
+
+.nav2img3 {
+    margin-left: 60px;
+}
+
+.nav2img4 {
+    margin-left: 80px;
+}
+
+.nav2img5 {
+    margin-left: 60px;
+}
+
+.nav2img6 {
+    margin-left: 60px;
+}
+
+.nav2img7 {
+    margin-left: 60px;
+}
+
+.row2 {
+    display: flex;
+    margin-left: 60px;
+
+
+}  */
+
+.home1 {
+    margin-left: 75px;
+    font-size: 10px;
+    align-items: center;
+    background-color: rgb(156, 154, 154);
+    text-align: center;
+    width: 12%;
+    color: white;
+}
+
+
+
+.pokedex1 {
+    /* margin-left: 10px; */
+    font-size: 10px;
+    align-items: center;
+    border-bottom: 5px solid red;
+    text-align: center;
+    width: 12%;
+}
+
+.pokedex1:hover {
+    background-color: red;
+    color: white;
+}
+
+.video1 {
+    /* margin-left: 10px; */
+    font-size: 10px;
+    align-items: center;
+    border-bottom: 5px solid orange;
+    text-align: center;
+    width: 12%;
+}
+
+.video1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.trading1 {
+    /* margin-left: 10px; */
+    font-size: 10px;
+    align-items: center;
+    border-bottom: 5px solid gold;
+    text-align: center;
+    width: 12%;
+}
+
+.trading1:hover {
+    background-color: gold;
+    color: white;
+}
+
+.tv1 {
+    /* margin-left: 10px; */
+    font-size: 10px;
+    align-items: center;
+    border-bottom: 5px solid rgb(50, 190, 50);
+    text-align: center;
+    width: 12%;
+}
+
+.tv1:hover {
+    background-color: rgb(50, 190, 50);
+    color: white;
+}
+
+.play1 {
+    /* margin-left: 10px; */
+    font-size: 10px;
+    align-items: center;
+    border-bottom: 5px solid skyblue;
+    text-align: center;
+    width: 12%;
+}
+
+.play1:hover {
+    background-color: skyblue;
+    color: white;
+}
+
+.news1 {
+    /* margin-left: 10px; */
+    font-size: 10px;
+    align-items: center;
+    border-bottom: 5px solid mediumslateblue;
+    text-align: center;
+    width: 12%;
+}
+
+.news1:hover {
+    background-color: mediumslateblue;
+    color: white;
+}
+
+/* 
+.pokedox {
+    margin-left: 75px;
+    font-size: 10px;
+    align-items: center;
+
+
+}
+
+.video {
+    margin-left: 60px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.trading {
+    margin-left: 30px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.tv {
+    margin-left: 30px;
+    font-size: 10px;
+    align-items: center;
+}
+
+
+.play {
+    margin-left: 25px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.news {
+    margin-left: 46px;
+    font-size: 10px;
+    align-items: center;
+}
+
+.pokedox:hover {
+    background-color: red;
+
+}
+
+
+.video:hover {
+    background-color: orange;
+}
+
+.trading:hover {
+    background-color: gold;
+}
+
+.tv:hover {
+    background-color: lightgreen;
+}
+
+.play:hover {
+    background-color: skyblue;
+}
+
+.news:hover {
+    background-color: mediumpurple;
+} */
+
+
+
+.cards {
+
+    padding: 20px;
+    background-image: url('data:image/jpeg;base64,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');
+
+
+
+}
+
+.card1 {
+    margin-left: 60px;
+}
+
+.card2 {
+    margin-left: 520px;
+    margin-top: -376px;
+
+}
+
+.card3 {
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+.card4 {
+    margin-left: 390px;
+    margin-top: -257px;
+}
+
+.card5 {
+    margin-left: 60px;
+    margin-top: 10px;
+}
+
+.card6 {
+    margin-left: 390px;
+    margin-top: -257px;
+}
+
+.card7 {
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.card8 {
+    margin-left: 280px;
+    margin-top: -380px;
+}
+
+.card9 {
+    margin-left: 530px;
+    margin-top: -350px;
+}
+
+.card10 {
+    margin-left: 30px;
+    margin-top: -2px;
+}
+
+
+
+.card11 {
+    margin-left: 290px;
+    margin-top: -320px;
+
+}
+
+.card12 {
+    margin-left: 530px;
+    margin-top: -370px;
+}
+
+.card13 {
+    margin-left: 530px;
+    margin-top: 10px;
+
+}
+
+.card1:hover {
+    transform: translateY(-3px);
+}
+
+.card2:hover {
+    transform: translateY(-3px);
+}
+
+.card3:hover {
+    transform: translateY(-3px);
+}
+
+.card4:hover {
+    transform: translateY(-3px);
+}
+
+.card5:hover {
+    transform: translateY(-3px);
+}
+
+.card6:hover {
+    transform: translateY(-3px);
+}
+
+.card7:hover {
+    transform: translateY(-3px);
+}
+
+.card8:hover {
+    transform: translateY(-3px);
+}
+
+.card9:hover {
+    transform: translateY(-3px);
+}
+
+.card10:hover {
+    transform: translateY(-3px);
+}
+
+.card11:hover {
+    transform: translateY(-3px);
+}
+
+.card12:hover {
+    transform: translateY(-3px);
+}
+
+.card13:hover {
+    transform: translateY(-3px);
+}
+
+.card-body1 {
+    background-color: blueviolet;
+    padding: 10px;
+
+}
+
+.card-body2 {
+    background-color: blue;
+    padding: 10px;
+
+
+}
+
+.card-body3 {
+    background-color: gold;
+    padding: 10px;
+
+
+}
+
+.card-body4 {
+    background-color: burlywood;
+    padding: 10px;
+
+
+}
+
+.card-body5 {
+    background-color: orange;
+    padding: 10px;
+
+
+}
+
+.card-body6 {
+    background-color: darkgreen;
+    padding: 10px;
+
+
+}
+
+.card-body7 {
+    background-color: rgb(157, 89, 224);
+    padding: 10px;
+
+}
+
+.card-body8 {
+    background-color: lightslategray;
+    padding: 10px;
+
+
+}
+
+.card-body9 {
+    background-color: rgb(113, 158, 22);
+    padding: 10px;
+
+
+}
+
+.card-body10 {
+    background-color: rosybrown;
+    padding: 10px;
+
+
+}
+
+.card-body11 {
+    background-color: darkcyan;
+    padding: 10px;
+
+
+}
+
+.card-body12 {
+    background-color: goldenrod;
+    padding: 10px;
+
+
+}
+
+.card-body13 {
+    background-color: red;
+    padding: 10px;
+
+
+}
+
+.card-title {
+    color: white;
+}
+
+
+
+.footer {
+    background-color: black;
+    display: flex;
+    color: white;
+    padding: 40px;
+
+
+
+}
+
+
+.social_links {
+    margin-left: 60px;
+
+}
+
+.col-3 {
+    margin-left: 60px;
+}
+
+.links {
+    margin-left: 90px;
+    margin-bottom: 20px;
+    font-size: small;
+
+
+}
+
+.footerimg {
+    margin-bottom: -40px;
+
+}
+
+.pokemon_company {
+    font-size: small;
+}
+
+
+.copyright {
+    font-size: 10px;
+}
