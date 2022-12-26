@@ -500,12 +500,17 @@
     margin-left: 60px;
 }
 
-.links {
+.links a{
     margin-left: 90px;
     margin-bottom: 20px;
     font-size: small;
+    color: rgb(92, 87, 87);
 
 
+}
+
+.links a:hover{
+    color: white;
 }
 
 .footerimg {
@@ -513,11 +518,25 @@
 
 }
 
-.pokemon_company {
+.pokemon_company ul li a{
     font-size: small;
+    text-decoration: none;
+    color: rgb(92, 87, 87);
+
+}
+.pokemon_company ul li a:hover{
+    color: white;
+}
+
+.pokemon_company ul li{
+    color: rgb(92, 87, 87);
+}
+.pokemon_company ul li:hover{
+    color: white;
 }
 
 
 .copyright {
     font-size: 10px;
+    color: rgb(92, 87, 87);
 }
